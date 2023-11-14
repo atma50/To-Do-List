@@ -1,0 +1,118 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffeecc; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#mainContainer {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+}
+
+#toDoListContainer {
+  background-color: #ff6666; 
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px 4px 0 0;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+#inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-bottom: 2px solid #ff6666; 
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+input[type="text"]::placeholder {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-size: 20px;
+  text-align: center;
+  color: #999; 
+}
+
+input[type="text"]:focus {
+  border-bottom: 2px solid #ff4d4d; 
+}
+
+#button {
+  margin-top: 20px;
+}
+
+#addToListBtn {
+  background-color: #ff6666; 
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#addToListBtn:hover {
+  background-color: #ffcc99;
+}
+
+#listContainer {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #ffcc99; 
+  border: 1px solid #e57373; 
+  border-radius: 4px;
+  margin: 5px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #ffbf80; 
+}
+
+button {
+  background-color: #66cc66; 
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4cae4c; 
+}
+
